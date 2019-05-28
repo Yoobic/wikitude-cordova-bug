@@ -1,5 +1,8 @@
 # wikitude-cordova-bug
 
+Cordova sample app to demonstrate and reproduce bug when both following plugins are installed:
+- `wikitude-cordova-plugin`
+- `cordova-plugin-ionic-webview`
 
 ## App structure :
 
@@ -36,6 +39,7 @@ connect your ios device and `cordova run ios --device` (or run app from xcode)
 ## To reproduce bug :
 1. start app
 2. click on `Video` button (each click creates a video element and plays it)
-3. click on `Wikitude` to launch AR experience
-4. click on `Close AR` button to go back to home screen (or swipe the screen right to close experience)
-5. click on `Video` button -> **video will not launch anymore**
+3. close video
+4. click on `Wikitude` to launch AR experience
+5. click on `Close AR` button to go back to home screen (or swipe the screen right to close experience)
+6. click on `Video` button -> **VIDEO WILL NOT LAUNCH ANYMORE**
