@@ -1,0 +1,39 @@
+{
+    "name": "helloworld",
+    "displayName": "HelloCordova",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "optionalDependencies": {
+        "com.wikitude.phonegap.WikitudePlugin": "file:_plugins/wikitude-cordova-plugin"
+    },
+    "dependencies": {
+        "com.wikitude.phonegap.WikitudePlugin": "file:_plugins/wikitude-cordova-plugin",
+        "cordova-android": "^8.0.0",
+        "cordova-ios": "^5.0.1",
+        "replace": "^1.1.0",
+        "video.js": "^7.5.4"
+    },
+    "devDependencies": {
+        "cordova-plugin-ionic-webview": "^4.0.0",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "com.wikitude.phonegap.WikitudePlugin": {},
+            "cordova-plugin-ionic-webview": {}
+        },
+        "platforms": [
+            "ios"
+        ]
+    }
+}
