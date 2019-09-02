@@ -13,7 +13,7 @@
     <plugin name="cordova-plugin-ionic-webview" spec="4.0.0" />
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <feature name="CDVWKWebViewEngine">
-    <param name="ios-package" value="CDVWKWebViewEngine" />
+        <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -38,4 +38,5 @@
             <string>Wikitude-POC requires access to your camera  for AR Experience</string>
         </config-file>
     </platform>
+    <engine name="ios" spec="^5.0.1" />
 </widget>
