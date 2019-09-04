@@ -11,7 +11,7 @@
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="./_plugins/wikitude-cordova-plugin" />
     <plugin name="cordova-plugin-ionic-webview" spec="4.0.0" />
-    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="CordovaWebViewEngine" value="CDVUIWebViewEngine" />
     <feature name="CDVWKWebViewEngine">
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
